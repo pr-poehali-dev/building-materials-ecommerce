@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 const config = {
@@ -54,9 +53,9 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
         brand: {
-          DEFAULT: "#F97316", // оранжевый цвет для строительной тематики
-          light: "#FDBA74",
-          dark: "#C2410C",
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+          "dark": "hsl(var(--primary) / 90%)",
         },
         sidebar: {
           background: "hsl(var(--sidebar-background))",
